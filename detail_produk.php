@@ -5,13 +5,24 @@ $result = mysqli_query($conn, "SELECT * FROM produk WHERE kode_produk = '$kode'"
 $row = mysqli_fetch_assoc($result);
 
 ?>
+<style>
+	.thumbnail{
+		width: 300px;
+		left: 800px;
+	}
+	.custom-img {
+		max-width: 300px;
+		height: 300px;
+	}
+	
+</style>
 <div class="container">
 	<h2 style=" width: 100%; border-bottom: 4px solid #ff8680"><b>Detail produk</b></h2>
 
 	<div class="row">
 		<div class="col-md-4">
 			<div class="thumbnail">
-				<img src="image/produk/<?= $row['image']; ?>" width="400">
+				<img src="image/produk/<?= $row['image']; ?>" width="400" >
 			</div>
 		</div>
 

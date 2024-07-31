@@ -9,7 +9,7 @@ if(!isset($_SESSION['admin'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Rafy Backery</title>
+	<title>Oleh-Oleh Khas Tual</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
@@ -42,9 +42,11 @@ if(!isset($_SESSION['admin'])){
 							<li><a href="m_customer.php">Master Customer</a></li>
 						</ul>
 					</li>
-
+					<!-- <li class="dropdown">
+						<a href="produksi.php">Data Transaksi</a>
+					</li> -->
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-retweet"></i> Data Transaksi <span class="caret"></span></a>
+						<a href="produksi.php" class="dropdown-toggle"    role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-retweet"></i> Data Transaksi <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="produksi.php">Produksi</a></li>
 							<li><a href="inventory.php">Inventory</a></li>
@@ -56,10 +58,9 @@ if(!isset($_SESSION['admin'])){
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-stats"></i> Laporan <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="laporan_penjualan.php">Laporan Penjualan</a></li>
-							<li><a href="laporan_profit.php">Laporan Profit</a></li>
+			
 							<li><a href="laporan_omset.php">Laporan Omset</a></li>
 							<li><a href="laporan_pembatalan.php">Laporan Pembatalan	</a></li>
-							<li><a href="laporan_inventory.php">Laporan Inventory</a></li>
 							<li><a href="laporan_produksi.php">Laporan Produksi</a></li>
 						</ul>
 					</li>

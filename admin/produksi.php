@@ -24,7 +24,7 @@ $cek_sor = mysqli_num_rows($sortage);
 		<tbody>
 
 			<?php 
-			$result = mysqli_query($conn, "SELECT DISTINCT invoice, kode_customer, status, kode_produk, qty,terima,tolak, cek FROM produksi group by invoice");
+			$result = mysqli_query($conn, "SELECT DISTINCT invoice, kode_customer, status,tanggal, kode_produk, qty,terima,tolak, cek FROM produksi group by invoice");
 			$no = 1;
 			$array = 0;
 			while($row = mysqli_fetch_assoc($result)){
@@ -75,7 +75,8 @@ $cek_sor = mysqli_num_rows($sortage);
 							}
 							?>
 						</td>
-						<td>2020/26-01</td>
+						<!-- <td>2020/26-01</td> -->
+						<td><?= $row['tanggal']; ?></td>
 						<td>
 							<?php if( $row['tolak']==0 && $row['cek']==1 && $row['terima']==0){ ?>
 								<a href="inventory.php?cek=0" id="rq" class="btn btn-warning"><i class="glyphicon glyphicon-warning-sign"></i> Request Material Shortage</a> 
@@ -102,7 +103,7 @@ if($cek_sor > 0){
  ?>
 	<br>
 	<br>
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-md-4 bg-danger" style="padding:10px;">
 			<h4>Kekurangan Material </h4>
 			<h5 style="color: red;font-weight: bold;">Silahkan Tambah Stok Material dibawah ini : </h5>
@@ -128,7 +129,7 @@ if($cek_sor > 0){
 }
  ?>
 
-	</div>
+	</div> -->
 
 	
 

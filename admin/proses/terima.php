@@ -27,7 +27,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 			echo "
 			<script>
-			alert('PESANAN BERHASIL DITERIMA, BAHAN BAKU TELAH DIKURANGKAN');
+			alert('PESANAN BERHASIL DITERIMA, SEGERA DIANTAR');
 			window.location = '../produksi.php';
 			</script>
 			";

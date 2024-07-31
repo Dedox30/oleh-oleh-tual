@@ -3,10 +3,10 @@
 		<div class="container" style="padding-bottom: 50px;">
 			<div class="row">
 				<div class="col-md-4">
-					<h3 style="color: #ff8680"><b>RAPI-CAKE BAKERY</b></h3>
+					<h3 style="color:#DC143C"><b>OLEH-OLEH KHAS TUAL</b></h3>
 					<p>Jl. Tanah Merah Indah 1 No.10C</p>
 					<p><i class="glyphicon glyphicon-earphone"></i> +6287804616097</p>
-					<p><i class="glyphicon glyphicon-envelope"></i> o-cake@gmail.com</p>
+					<p><i class="glyphicon glyphicon-envelope"></i> tual-food@gmail.com</p>
 				</div>
 				<div class="col-md-4">
 					<h5><b>Menu</b></h5>
@@ -22,8 +22,8 @@
 
 		</div>
 
-		<div class="copy" style="background-color: #ff8680; padding: 5px; color: #fff; text-align: center;">
-			<span>Copyright&copy; Ahmad Rafi Akbar Putra Hamzah</span>
+		<div class="copy" style="background-color: #DC143C; padding: 5px; color: #fff; text-align: center;">
+			<span>Copyright&copy; Dedy Sahuleka</span>
 		</div>
 	</footer>
 

@@ -8,7 +8,7 @@
 <form action="proses/login.php" method="POST">
 		<div class="form-group">
 			<label for="exampleInputEmail1">username</label>
-			<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="username" style="width: 500px;">
+			<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="user" style="width: 500px;">
 		</div>
 		
 		<div class="form-group">

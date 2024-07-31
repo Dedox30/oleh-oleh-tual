@@ -63,7 +63,7 @@ else if(strlen($add) == 3){
 			</textarea>
 		</div>
 		<hr>
-		<h3 style=" width: 100%; border-bottom: 4px solid gray">BOM Produk</h3>
+		<!-- <h3 style=" width: 100%; border-bottom: 4px solid gray">BOM Produk</h3>
 		<br>
 		<div class="row">
 			<div class="col-md-6">
@@ -131,7 +131,7 @@ else if(strlen($add) == 3){
 				?>
 
 			</div>
-		</div>
+		</div> -->
 
 				<div class="row">
 			

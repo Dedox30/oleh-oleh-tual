@@ -5,9 +5,9 @@
 
 <div class="container" style="padding-bottom: 300px;">
 	<h2 style=" width: 100%; border-bottom: 4px solid #ff8680"><b>Tentang Kami</b></h2>
-	<p class="text-justify">Rapi Cake & Bakery adalah rantai toko roti Indonesia terkemuka dengan 22 cabang (dapur pusat) yang mengelola lebih dari 400 outlet: Jabodetabek (Gajah Mada, Pondok Pinang, Jatinegara, Cikini, Sunter, Serpong, Ciputat, Pekayon, Bogor dan Karawang), Bandung, Surabaya, Lampung, Batam, Pekanbaru, Makassar, Manado, Bali, Solo, Semarang, Balikpapan, dan Samarinda. Kami masih terus memperluas secara nasional ke kota-kota lain.</p>
-<p>
-Rapi Cake & Bakery  adalah salah satu pelopor pertama dalam bisnis roti modern di Indonesia. Didirikan pada tahun 1978, saat ini dikelola di bawah PT. Mustika Citra Rasa. Produk kami sehat, bergizi, dan terjangkau oleh semua orang.</p>
+	<p class="text-justify">Oleh-oleh khas tual adalah olahan makanan khas tual yaitu enbal yang diolah menjadi berbagai varian bentuk baik makanan,snack,dan tepung., namun penjualan oleh-oleh khas tual masih sangat susah untuk diakses atau di jual secara online,pada akhirnya kami memepunyai inisiatif untiuk membuat website agar dapat mempromosikan dan menjual oleh-oleh khas tual. 
+	Website ini kami buat untuk membantu para umkm dalam mempromosikan dan menjual oleh-oleh khas tual, website ini bertujuan agar mempermudah Masyarakat untuk membeli oleh-oleh secara online dengan mudah dan cepat.</p>
+
 </div>
 
 
