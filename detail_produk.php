@@ -27,7 +27,7 @@ $row = mysqli_fetch_assoc($result);
 		</div>
 
 		<div class="col-md-8">
-			<form action="proses/add.php" method="GET">
+			<form action="proses/add.php" method="post">
 				<input type="hidden" name="kd_cs" value="<?= $kode_cs; ?>">
 				<input type="hidden" name="produk" value="<?= $kode;  ?>">
 				<input type="hidden" name="hal"  value="2">
