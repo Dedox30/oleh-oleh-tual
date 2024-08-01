@@ -88,7 +88,7 @@ if (isset($_POST['submit1'])) {
                 </tr>
                 <tr>
                     <td colspan="7" style="text-align: right; font-weight: bold;">
-                        <a href="index.php" class="btn btn-success">Lanjutkan Belanja</a>
+                        <a href="produk.php" class="btn btn-success">Lanjutkan Belanja</a>
                         <a href="checkout.php?kode_cs=<?= $kode_cs; ?>" class="btn btn-primary">Checkout</a>
                     </td>
                 </tr>
