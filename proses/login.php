@@ -19,7 +19,7 @@ if ($row_admin) {
         echo "
         <script>
         alert('USERNAME/PASSWORD SALAH');
-        window.location = '../index.php';
+        window.location = '../user_login.php';
         </script>
         ";
         die;
@@ -37,13 +37,13 @@ if ($row_customer) {
         $_SESSION["user"] = $row_customer['nama'];
         $_SESSION["kd_cs"] = $row_customer['kode_customer'];
         $_SESSION["role"] = 'user'; // Set role untuk customer
-        header('Location: ../index.php'); // Arahkan ke halaman pengguna
+        header('Location: ../produk.php'); // Arahkan ke halaman pengguna
         exit;
     } else {
         echo "
         <script>
         alert('USERNAME/PASSWORD SALAH');
-        window.location = '../index.php';
+        window.location = '../user_login.php';
         </script>
         ";
         die;
