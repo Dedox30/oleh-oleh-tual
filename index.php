@@ -13,12 +13,12 @@ include 'header.php';
 <br>
 <br>
 
-<!-- PRODUK TERBARU -->
+<!-- PRODUK TERBARU ->
 <div class="container">
     <h2 style="width: 100%; border-bottom: 4px solid #ff8680"><b>Produk Kami</b></h2>
 
     <div class="row">
-        <?php 
+    <?php 
         // Menggunakan prepared statement untuk mengambil data produk
         $stmt = $conn->prepare("SELECT * FROM produk");
         $stmt->execute();
@@ -65,7 +65,6 @@ include 'header.php';
         ?>
     </div>
 </div>
-<br>
 <?php 
 include 'footer.php';
 ?>

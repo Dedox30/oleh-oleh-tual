@@ -7,12 +7,12 @@ include 'header.php';
 	$num = substr($data['kode_bk'], 1, 4);
 	$add = (int) $num + 1;
 	if(strlen($add) == 1){
-		$format = "M000".$add;
+		$format = "P000".$add;
 	}else if(strlen($add) == 2){
-		$format = "M00".$add;
+		$format = "P00".$add;
 	}
 	else if(strlen($add) == 3){
-		$format = "M0".$add;
+		$format = "P0".$add;
 	}else{
 		$format = "M".$add;
 	}
@@ -21,13 +21,13 @@ include 'header.php';
 
 
 <div class="container">
-	<h2 style=" width: 100%; border-bottom: 4px solid gray"><b>Tambah Material</b></h2>
+	<h2 style=" width: 100%; border-bottom: 4px solid gray"><b>Tambah Produk</b></h2>
 
 	<form action="proses/tambah_inv.php" method="POST">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputEmail1">Kode Material</label>
+					<label for="exampleInputEmail1">Kode Produk</label>
 					<input type="text" class="form-control" id="exampleInputEmail1" disabled value="<?php echo $format; ?>">
 
 					<input type="hidden" class="form-control" id="exampleInputEmail1"  name="kd_material" value="<?php echo $format; ?>">
@@ -35,7 +35,7 @@ include 'header.php';
 			</div>
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputEmail1">Nama Material</label>
+					<label for="exampleInputEmail1">Nama Produk</label>
 					<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Material" name="nama">
 				</div>
 			</div>

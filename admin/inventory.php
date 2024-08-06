@@ -24,12 +24,12 @@ if(isset($_GET['page'])){
 
 
 <div class="container">
-	<h2 style=" width: 100%; border-bottom: 4px solid gray"><b>Inventory Material</b></h2>
+	<h2 style=" width: 100%; border-bottom: 4px solid gray"><b>Inventory Produk</b></h2>
 	<table class="table table-striped">
 		<thead>
 			<tr>
 				<th scope="col">No</th>
-				<th scope="col">Kode Matrial</th>
+				<th scope="col">Kode Produk</th>
 				<th scope="col">Nama</th>
 				<th scope="col">Stok</th>
 				<th scope="col">Satuan</th>
@@ -59,7 +59,7 @@ if(isset($_GET['page'])){
 			?>
 		</tbody>
 	</table>
-	<a href="tm_inventory.php" class="btn btn-success"><i class="glyphicon glyphicon-plus-sign"></i> Tambah Material</a>
+	<a href="tm_inventory.php" class="btn btn-success"><i class="glyphicon glyphicon-plus-sign"></i> Tambah Produk</a>
 </div>
 <!-- Button trigger modal -->
 
