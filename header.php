@@ -25,6 +25,9 @@ if(isset($_SESSION['kd_cs'])){
 				<div class="col-md-4" style="padding: 3px;">
 					<span> <i class="glyphicon glyphicon-earphone"></i> +6281247150213</span>
 				</div>
+				<div class="col-md-4" style="padding: 3px;">
+					<!--  -->
+				</div>
 
 
 				<div class="col-md-4"  style="padding: 3px;">
