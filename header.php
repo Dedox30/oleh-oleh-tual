@@ -31,7 +31,7 @@ if(isset($_SESSION['kd_cs'])){
 
 
 				<div class="col-md-4"  style="padding: 3px;">
-					<span><i class="glyphicon glyphicon-envelope"></i> tual-food@gmail.com</span>
+					<span><i class="glyphicon glyphicon-envelope"></i> reborn@oleholehtual.online</span>
 				</div>
 
 

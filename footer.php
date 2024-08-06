@@ -6,7 +6,7 @@
 					<h3 style="color:#DC143C"><b>OLEH-OLEH KHAS TUAL</b></h3>
 					<p>Jl. Abdul Gani Ronua, Kel Masrum, Kota Tual</p>
 					<p><i class="glyphicon glyphicon-earphone"></i> +6281247150213</p>
-					<p><i class="glyphicon glyphicon-envelope"></i> tual-food@gmail.com</p>
+					<p><i class="glyphicon glyphicon-envelope"></i> reborn@oleholehtual.online</p>
 				</div>
 				<div class="col-md-4">
 					<h5><b>Menu</b></h5>
